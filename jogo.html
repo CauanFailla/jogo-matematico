@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay / Logic Factory</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section class="secs sec-escolhas">
+            <div class="escolhas">
+                <div class="btn-escolha btn-adição escolha-liberado btn-som">
+                    <h1>Adição</h1>
+                    <p>0/4</p>
+                </div>
+                <div class="btn-escolha btn-subtração escolha-bloqueado btn-som">
+                    <h1>Subtração</h1>
+                    <p>0/4</p>
+                </div>
+                <div class="btn-escolha btn-multiplicação escolha-bloqueado btn-som">
+                    <h1>Multiplicação</h1>
+                    <p>0/4</p>
+                </div>
+                <div class="btn-escolha btn-divisão escolha-bloqueado btn-som">
+                    <h1>Divisão</h1>
+                    <p>0/4</p>
+                </div>
+            </div>
+        </section>
+        <span class="material-icons btn-voltar">arrow_back</span>
+
+        <section class="secs sec-jogo">
+            <div class="adição-expre">
+                <p class="adiçãoValue1">41</p>
+                <p class="ope-visual">+</p>
+                <p class="adiçãoValue2">98</p>
+            </div>
+            <div class="adição-opções">
+                <div class="op"></div>
+                <div class="op"></div>
+                <div class="op"></div>
+                <div class="op"></div>
+            </div>
+            <button class="btn-confirmarEscolha">Confirmar</button>
+        </section>
+
+        <section class="sec-finalizado">
+            <div class="div-finalizado">
+                <div class="finalizado-header">
+                    <h1>Rodada Finalizada!</h1>
+                </div>
+                <div class="finalizado-body">
+                    <p class="p-acertos"></p>
+                    <p class="p-aFase"></p>
+                </div>
+                <div class="finalizado-footer">
+                    <p>Você deseja:</p>
+                    <div>
+                        <button class="btnFim-continarPraticando">Continuar Praticando</button>
+                        <button class="btnFim-voltar">Voltar ao Menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/jogo-script.js"></script>
+</body>
+</html>
