@@ -248,6 +248,7 @@ function verificarAcerto() {
                 Jogador.acertosRodada++
                 console.log('Certo')
                 console.log(o.innerHTML)
+                tempoEspera = true
             } else {
                 console.log('ERRADO')
                 ops.forEach((op,i)=>{
